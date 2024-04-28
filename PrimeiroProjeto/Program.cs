@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Net.Security;
+using System.Numerics;
 
 internal class Program
 {
@@ -8,6 +9,7 @@ internal class Program
         int anos = 0;
         string nome;
         Double valor;
+        string[] vet = Console.ReadLine().Split(' ');
 
         bool Verdadeiro = true;
 
@@ -26,5 +28,21 @@ internal class Program
 
 
         Console.WriteLine("Hello, World!");
+
+
+        string Nome2;
+        int Quartos;
+        double PrecoProduto;
+
+
+
+        Console.WriteLine("Entre com Seu nome completo");
+        Console.ReadLine();
+        Console.WriteLine("Quantos quartos tem em sua casa?");
+        Console.ReadLine();
+        Console.WriteLine("Entre com o preço de um produto");
+        Console.ReadLine();
+        Console.WriteLine("Entre com seu ultimo nome, idade e altura(mesma linha):");
+        Console.ReadLine();
     }
 }
