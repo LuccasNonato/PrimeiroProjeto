@@ -22,3 +22,18 @@ else
 }
 
 
+
+Console.WriteLine("digite as horas");
+double Horas = double.Parse(Console.ReadLine());
+if (Horas >= 12)
+{
+    Console.WriteLine("Bom dia");
+} else if  (Horas <= 12)
+    {
+    Console.WriteLine("Boa tarde");
+} else if (Horas >= 6)
+    {
+    Console.WriteLine("Boa Noite");
+}
+
+
