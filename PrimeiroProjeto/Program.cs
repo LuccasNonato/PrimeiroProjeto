@@ -10,6 +10,7 @@ internal class Program
         string nome;
         Double valor;
         string[] vet = Console.ReadLine().Split(' ');
+        string NomeVet = vet[0];
 
         bool Verdadeiro = true;
 
@@ -34,15 +35,5 @@ internal class Program
         int Quartos;
         double PrecoProduto;
 
-
-
-        Console.WriteLine("Entre com Seu nome completo");
-        Console.ReadLine();
-        Console.WriteLine("Quantos quartos tem em sua casa?");
-        Console.ReadLine();
-        Console.WriteLine("Entre com o preço de um produto");
-        Console.ReadLine();
-        Console.WriteLine("Entre com seu ultimo nome, idade e altura(mesma linha):");
-        Console.ReadLine();
     }
 }
