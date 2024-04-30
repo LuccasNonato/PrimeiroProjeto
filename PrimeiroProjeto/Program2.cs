@@ -6,34 +6,23 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int anos = 0;
-        string nome;
-        Double valor;
-        string[] vet = Console.ReadLine().Split(' ');
-        string NomeVet = vet[0];
+        int a = 50;
+       
+        
+        bool c1 = a < 10;
+        bool c2 = a < 20;
+        bool c3 = a < 5;
+        bool c4 = a > 5;
+        bool c5 = a == 10;
 
-        bool Verdadeiro = true;
-
-        if (Verdadeiro == true)
-        {
-            nome = "Luccas";
-            valor = 10.2354;
-            anos = 27;
-
-            Console.WriteLine(nome + " tem " + anos + " anos e apenas " + valor.ToString("F2",CultureInfo.InvariantCulture) + " reais");
-        }
-        else
-        {
-            Console.WriteLine("False");
-        }
+        Console.WriteLine(c1);
+        Console.WriteLine(c2);
+        Console.WriteLine(c3);
+        Console.WriteLine(c4);
+        Console.WriteLine(c5);
 
 
-        Console.WriteLine("Hello, World!");
 
-
-        string Nome2;
-        int Quartos;
-        double PrecoProduto;
 
     }
 }
